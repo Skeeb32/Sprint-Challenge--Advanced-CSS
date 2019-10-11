@@ -33,14 +33,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+To put it simply, a responsive website is fluid and adapts to the size of the screen no matter what the target device. A responsive website uses CSS media queries to change styles based on the target device such as display type, width, height, etc, and only one of these is necessary for the site to adapt to different screens. 
+While responsive site designs are guaranteed to work well on any screen size, adaptive designs only work on as many screens as its layouts are able to. So if a new device with a new screen size is released, you may find out that none of your adaptive layouts fit with it well. 
 
 2. Describe what it means to be mobile first vs desktop first.
+Mobile first is a design strategy while desktop first is the result of a technical approach (responsive). When a business develops its website, the design is often based on the assumption that visitors will browse it on a desktop computer. Mobile first is a design for users using an online experience for mobile devices. In addition with mobile first, it is quicker for users to download and access the content and its design emphasizes content over navigation. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+When specified on a font-size property of the root element, the rem units refer to the property’s initial value. This means that 1rem equals the font size of the html element (which for most growers has a default value of 16px). Therefore from 62.5%, the rem unit equates to 1.4 rem or exactly 14px. These are also used mainly in media queries. Some advantages include responsiveness, scalability, improved reading experience, and a greater flexibility in defining components. 
 
 4. How would you describe preprocessing to someone new to CSS?
+A CSS preprocessor is a program that lets you generate CSS from the preprocessor’s own unique syntax. There are many CSS preprocessors to choose from, however most CSS preprocessors will add some features that don’t exist in pure CSS, such as mixin, nesting selector, inheritance selector, and so on. Think of it as being key ingredients needed for CSS development. It makes coding a whole lot easier. Preprocessors extend CSS with variables, operators, functions, and many more other useable assets. 
+For bigger projects, or a complex systems, maintenance is a very big problem. In order to write better CSS, an approach is to separate definitions into smaller files and import them into on main file. This approach saves time and implementations of objects oriented in CSS. Preprocessors, with their advanced features, helps to achieve writing reusable, maintainable and extensible codes in CSS. By using preprocessing, you can easily increase your productivity, and decrease the amount of code you are writing in a project. 
+
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+My favorite part of preprocessing is the ability to write length code, but being able to not write the same code over and over again whereas with preprocessing once you write a main code and root it down, you can make changes easily. 
+I believe the concept that gives me the most trouble is the inability to master the concept in such a short amount of time. After seeing this concept for the first time, I need to research it more, rewatch the lectures, and practice the method in order for the answers to make sense. 
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
